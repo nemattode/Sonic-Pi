@@ -150,7 +150,7 @@ live_loop :kickloop do
     4.times do
       with_fx :reverb do
         sleep 4
-        sample :perc_snap2, amp: 0.05
+        sample :perc_snap2, amp: 0.000001
       end
     end
     stop
